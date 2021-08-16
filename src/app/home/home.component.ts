@@ -2,15 +2,16 @@ import { Component, OnInit } from '@angular/core';
 
 import { IconService } from 'carbon-components-angular';
 
-import AddIcon16 from '@carbon/icons/es/add/16';
-import UserIcon16 from '@carbon/icons/es/user/16';
-import UserAvatar20 from '@carbon/icons/es/user--avatar/20';
-import Bee20 from '@carbon/icons/es/bee/20';
-import Purchase32 from '@carbon/icons/es/purchase/32';
 import Accessibility24 from '@carbon/icons/es/accessibility/24';
+import AddIcon16 from '@carbon/icons/es/add/16';
 import AirlineDigitalGate20 from '@carbon/icons/es/airline--digital-gate/20';
 import AirportLocation16 from '@carbon/icons/es/airport-location/16';
 import ApplicationWeb32 from '@carbon/icons/es/application--web/32';
+import Bee20 from '@carbon/icons/es/bee/20';
+import UserAvatar20 from '@carbon/icons/es/user--avatar/20';
+import UserIcon16 from '@carbon/icons/es/user/16';
+import Purchase32 from '@carbon/icons/es/purchase/32';
+import Restart16 from '@carbon/icons/es/restart/16';
 
 @Component({
   selector: 'app-home',
@@ -22,15 +23,16 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     this.iconService.registerAll([
-      AddIcon16,
-      UserIcon16,
-      UserAvatar20,
-      Bee20,
-      Purchase32,
       Accessibility24,
+      AddIcon16,
       AirlineDigitalGate20,
       AirportLocation16,
       ApplicationWeb32,
+      Bee20,
+      UserAvatar20,
+      UserIcon16,
+      Purchase32,
+      Restart16,
     ]);
   }
 }
