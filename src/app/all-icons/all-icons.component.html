@@ -1,0 +1,11 @@
+<a routerLink="/home">Home</a>
+<h1>Displaying all @carbon/icons</h1>
+<div class="parent">
+	<div class="child" *ngFor="let group of groupedIcons">
+		<span *ngFor="let icon of group">
+			<svg [ibmIcon]="icon.name" [size]="icon.size"></svg>
+			<div>name: <strong><code>{{icon.name}}</code></strong></div>
+			<div>size: <strong><code>{{icon.size}}</code></strong></div>
+		</span>
+	</div>
+</div>

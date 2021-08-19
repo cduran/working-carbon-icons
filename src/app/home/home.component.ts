@@ -11,6 +11,7 @@ import Bee20 from '@carbon/icons/es/bee/20';
 import UserAvatar20 from '@carbon/icons/es/user--avatar/20';
 import UserIcon16 from '@carbon/icons/es/user/16';
 import Purchase32 from '@carbon/icons/es/purchase/32';
+import Reset16 from '@carbon/icons/es/reset/16';
 import Restart16 from '@carbon/icons/es/restart/16';
 
 @Component({
@@ -32,6 +33,7 @@ export class HomeComponent implements OnInit {
       UserAvatar20,
       UserIcon16,
       Purchase32,
+      Reset16,
       Restart16,
     ]);
   }
