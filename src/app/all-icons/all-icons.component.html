@@ -1,5 +1,5 @@
 <a routerLink="/home">Home</a>
-<h1>Displaying all @carbon/icons</h1>
+<h1>Displaying all {{ groupedIcons.length }} @carbon/icons with 4 sizes variations each.</h1>
 <div class="parent">
 	<div class="child" *ngFor="let group of groupedIcons">
 		<span *ngFor="let icon of group">
