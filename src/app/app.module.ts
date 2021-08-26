@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { ButtonModule, IconModule } from 'carbon-components-angular';
+import { ButtonModule } from 'carbon-components-angular/button';
+import { IconModule } from 'carbon-components-angular/icon';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
