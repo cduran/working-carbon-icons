@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { IconService } from 'carbon-components-angular';
+import { IconService } from 'carbon-components-angular/icon';
 
 // Import all carbon icons
 import * as Icons from '@carbon/icons/es';

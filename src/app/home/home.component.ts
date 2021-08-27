@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { IconService } from 'carbon-components-angular';
+import { IconService } from 'carbon-components-angular/icon';
 
 import Accessibility24 from '@carbon/icons/es/accessibility/24';
 import AddIcon16 from '@carbon/icons/es/add/16';
