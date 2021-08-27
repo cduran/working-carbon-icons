@@ -1,27 +1,11 @@
-# WorkingCarbonIcons
+# Demo project using @carbon/icons and carbon components 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.3.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/eb8b3d1a-a72b-4de4-bf4f-b7424d3be4e8/deploy-status)](https://app.netlify.com/sites/sleepy-williams-795658/deploys)
 
-## Development server
+## To run locally 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `nvm use`. To use repository `.nvmrc` file declared node version. (if not using `nvm` check it out here -> https://github.com/nvm-sh/nvm#about)
 
-## Code scaffolding
+Then run `npm install`.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Then run `npm start` for a dev server. Navigate to `http://localhost:4200/`.
