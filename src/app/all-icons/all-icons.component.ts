@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { IconService } from 'carbon-components-angular/icon';
 
 // Import all carbon icons
-import * as Icons from '@carbon/icons/es';
+// import * as Icons from '@carbon/icons/es';
 
 @Component({
   selector: 'app-all-icons',
@@ -17,15 +17,15 @@ export class AllIconsComponent implements OnInit {
 
   ngOnInit() {
     const iconMap = new Map();
-    for (const [key, descriptor] of Object.entries(Icons)) {
-      // Registering all icons
-      this.iconService.register(descriptor as object);
+    // for (const [key, descriptor] of Object.entries(Icons)) {
+    //   // Registering all icons
+    //   this.iconService.register(descriptor as object);
 
-      if (!iconMap.has(descriptor['name'])) {
-        iconMap.set(descriptor['name'], []);
-      }
-      iconMap.get(descriptor['name']).push(descriptor);
-    }
+    //   if (!iconMap.has(descriptor['name'])) {
+    //     iconMap.set(descriptor['name'], []);
+    //   }
+    //   iconMap.get(descriptor['name']).push(descriptor);
+    // }
     this.groupedIcons = Array.from(iconMap.values());
   }
 }
